@@ -1,3 +1,2 @@
 requests==2.20.0
 urllib3==1.21.1
-jsonlib==1.6.1
