@@ -11,5 +11,5 @@ def lambda_handler(event, context):
         print(body['Message'])
         response = requests.post('http://sahuppal-aws.com/persist', json=json.loads(body['Message']))
         print(response)
-    print("I am updated from github actions")
+    print("I am updated from github actions!!")
     return json.loads(body['Message'])
